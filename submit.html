@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..900&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=3">
 <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
@@ -42,9 +42,15 @@
 </div></div></section>
 <section class="pad on-paper"><div class="wrap rfp-wrap">
   <aside class="rfp-aside" data-rise>
-    <p class="eyebrow">How it works</p>
-    <p>Each engagement has a defined scope and agreed deliverables and includes at least 4 meetings between your team and our consultants.</p>
-    <p>Questions first? Email us at&nbsp;<a href="mailto:buffalombaconsulting@gmail.com">buffalombaconsulting@gmail.com</a>.</p>
+    <p class="eyebrow">Before you start</p>
+    <dl class="rfp-facts">
+      <div><dt>Deadline</dt><dd>Submit by January 13, 2027</dd></div>
+      <div><dt>Timeline</dt><dd>Spring projects run February through April</dd></div>
+      <div><dt>Your team</dt><dd>At least three MBA and MS consultants</dd></div>
+      <div><dt>Commitment</dt><dd>At least 4 meetings with our consultants</dd></div>
+      <div><dt>Cost</dt><dd>Pro bono</dd></div>
+    </dl>
+    <p class="rfp-help">Questions first? Email us at&nbsp;<a href="mailto:buffalombaconsulting@gmail.com">buffalombaconsulting@gmail.com</a>.</p>
   </aside>
   <div class="panel rfp-panel" data-pop>
   <!-- EDIT: form questions. Answers are emailed to the address in the form action through formsubmit.co -->
@@ -52,12 +58,11 @@
     <input type="hidden" name="_subject" value="New project proposal from the UB MBA Consulting Group website">
     <input type="hidden" name="_template" value="table">
     <input type="hidden" name="_next" value="">
-    <div class="hp" aria-hidden="true"><label for="hp">Leave this field empty</label><input id="hp" type="text" name="_honey" tabindex="-1" autocomplete="off"></div>
-    <ol class="rfp-progress mono" aria-label="Form progress"><li class="on" data-step-dot="1">01 · About you</li><li data-step-dot="2">02 · Your project</li></ol>
-    <fieldset class="rfp-step" data-step="1"><legend>About you and your organization</legend><div class="field"><label for="f0">Name <span class="req" aria-hidden="true">*</span></label><input id="f0" name="Name" type="text" required autocomplete="name"></div><div class="field"><label for="f1">Company/ Organization <span class="req" aria-hidden="true">*</span></label><input id="f1" name="Company / Organization" type="text" required autocomplete="organization"></div><div class="field"><label for="f2">Email <span class="req" aria-hidden="true">*</span></label><input id="f2" name="email" type="email" required autocomplete="email"></div><div class="field"><label for="f3">Industry & For Profit/ Non-Profit <span class="req" aria-hidden="true">*</span></label><input id="f3" name="Industry & For Profit / Non-Profit" type="text" required autocomplete="off"></div><div class="field"><label for="f4">Job Title and Brief Description of Your Role <span class="req" aria-hidden="true">*</span></label><textarea id="f4" name="Job title and role" rows="4" required maxlength="3000"></textarea></div><div class="field"><label for="f5">Briefly describe your business. <span class="req" aria-hidden="true">*</span></label><textarea id="f5" name="About the business" rows="4" required maxlength="3000"></textarea></div>
-      <div class="btn-row"><button type="button" class="btn btn--ink btn--lg" data-next>Next<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div></fieldset>
-    <fieldset class="rfp-step" data-step="2"><legend>Your project</legend><div class="field"><label for="f10">Please describe the business challenge you are seeking to address with our team. <span class="req" aria-hidden="true">*</span></label><textarea id="f10" name="Business challenge" rows="4" required maxlength="3000"></textarea></div><div class="field"><label for="f11">Describe what steps, if any, you have taken thus far to handle this challenge. Please also describe any barriers you are facing. <span class="req" aria-hidden="true">*</span></label><textarea id="f11" name="Steps taken and barriers" rows="4" required maxlength="3000"></textarea></div><div class="field"><label for="f12">Describe resources your company can allocate to this project. Please identify time/personnel/etc that can be dedicated to the project phase or post engagement implementation phase. <span class="req" aria-hidden="true">*</span></label><textarea id="f12" name="Resources available" rows="4" required maxlength="3000"></textarea></div><div class="field"><label for="f13">Describe what “success” would look like to you and your organization post consulting project. <span class="req" aria-hidden="true">*</span></label><textarea id="f13" name="Definition of success" rows="4" required maxlength="3000"></textarea></div>
-      <div class="btn-row"><button type="button" class="btn btn--ghost btn--lg" data-back>Back</button><button type="submit" class="btn btn--blue btn--lg">Submit application<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div></fieldset>
+    <ol class="rfp-progress" aria-label="Form progress"><li class="on" data-step-dot="1"><span>01</span>About you</li><li data-step-dot="2"><span>02</span>Your project</li></ol>
+    <fieldset class="rfp-step" data-step="1"><legend><span class="mono">Step 1 of 2</span>About you and your organization</legend><div class="rfp-grid"><div class="field field--half"><label for="f0"><span class="field__no">01</span><span class="field__q">Name</span></label><input id="f0" name="Name" type="text" required autocomplete="name"></div><div class="field field--half"><label for="f1"><span class="field__no">02</span><span class="field__q">Company/ Organization</span></label><input id="f1" name="Company / Organization" type="text" required autocomplete="organization"></div><div class="field field--half"><label for="f2"><span class="field__no">03</span><span class="field__q">Email</span></label><input id="f2" name="email" type="email" required autocomplete="email"></div><div class="field field--half"><label for="f3"><span class="field__no">04</span><span class="field__q">Industry & For Profit/ Non-Profit</span></label><input id="f3" name="Industry & For Profit / Non-Profit" type="text" required autocomplete="off"></div><div class="field"><label for="f4"><span class="field__no">05</span><span class="field__q">Job Title and Brief Description of Your Role</span></label><textarea id="f4" name="Job title and role" rows="5" required maxlength="3000"></textarea></div><div class="field"><label for="f5"><span class="field__no">06</span><span class="field__q">Briefly describe your business.</span></label><textarea id="f5" name="About the business" rows="5" required maxlength="3000"></textarea></div></div>
+      <div class="rfp-actions"><span class="rfp-hint">All fields are required</span><button type="button" class="btn btn--ink btn--lg" data-next>Continue<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div></fieldset>
+    <fieldset class="rfp-step" data-step="2"><legend><span class="mono">Step 2 of 2</span>Your project</legend><div class="rfp-grid"><div class="field"><label for="f10"><span class="field__no">07</span><span class="field__q">Please describe the business challenge you are seeking to address with our team.</span></label><textarea id="f10" name="Business challenge" rows="5" required maxlength="3000"></textarea></div><div class="field"><label for="f11"><span class="field__no">08</span><span class="field__q">Describe what steps, if any, you have taken thus far to handle this challenge. Please also describe any barriers you are facing.</span></label><textarea id="f11" name="Steps taken and barriers" rows="5" required maxlength="3000"></textarea></div><div class="field"><label for="f12"><span class="field__no">09</span><span class="field__q">Describe resources your company can allocate to this project. Please identify time/personnel/etc that can be dedicated to the project phase or post engagement implementation phase.</span></label><textarea id="f12" name="Resources available" rows="5" required maxlength="3000"></textarea></div><div class="field"><label for="f13"><span class="field__no">10</span><span class="field__q">Describe what “success” would look like to you and your organization post consulting project.</span></label><textarea id="f13" name="Definition of success" rows="5" required maxlength="3000"></textarea></div></div>
+      <div class="rfp-actions"><button type="button" class="btn btn--ghost btn--lg" data-back>Back</button><button type="submit" class="btn btn--blue btn--lg">Submit application<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div></fieldset>
     <p class="rfp-status" role="status" aria-live="polite"></p>
   </form>
   <div class="rfp-done" id="rfp-done" hidden tabindex="-1">
@@ -79,7 +84,7 @@
   function show(n, focus) {
     steps.forEach(function (s) { s.hidden = s.getAttribute('data-step') !== String(n); });
     form.querySelectorAll('[data-step-dot]').forEach(function (d) { d.classList.toggle('on', +d.getAttribute('data-step-dot') <= n); });
-    if (focus) { var f = form.querySelector('[data-step="' + n + '"] input, [data-step="' + n + '"] textarea'); if (f) f.focus(); }
+    if (focus) { form.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' }); var f = form.querySelector('[data-step="' + n + '"] input, [data-step="' + n + '"] textarea'); if (f) f.focus({ preventScroll: true }); }
   }
   function valid(step) {
     var bad = Array.prototype.filter.call(step.querySelectorAll('input,textarea'), function (el) { return !el.checkValidity(); });
@@ -135,6 +140,6 @@
     <div class="footer__bottom mono"><p>© 2026 UB MBA Consulting Group</p><p>University at Buffalo School of Management</p></div>
   </div>
 </footer>
-<script src="script.js" defer></script>
+<script src="script.js?v=3" defer></script>
 </body>
 </html>
