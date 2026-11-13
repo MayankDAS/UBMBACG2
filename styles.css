@@ -451,3 +451,4 @@ a.is-ph { outline: 2px dashed #FFD84D; outline-offset: 3px; }
 @media (max-width: 420px) { .nav__logo { padding: 6px 12px; } .nav__logo img { height: 40px; } }
 @media (min-width: 700px) { .nav__logo { padding: 6px 20px; } .nav__logo img { height: 50px; } }
 .client-logo img[src*="cradle"] { max-height: 92px; }
+.client-logo img[src*="carengen"] { max-height: 56px; max-width: 100%; }
