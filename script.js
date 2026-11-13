@@ -22,7 +22,7 @@
   }
 
   /* Reveal on view: adds .is-in once */
-  var revealEls = $$('[data-rise], [data-pop], [data-lines]');
+  var revealEls = $$('[data-rise], [data-pop], [data-lines], .logo-wall');
   $$('[data-stagger]').forEach(function (g) {
     $$(':scope > *', g).forEach(function (c, i) { c.style.setProperty('--i', i); });
   });
