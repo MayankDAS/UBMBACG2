@@ -441,3 +441,12 @@ a.is-ph { outline: 2px dashed #FFD84D; outline-offset: 3px; }
 }
 .rfp-progress li { white-space: nowrap; }
 @media (max-width: 480px) { .rfp-progress li { padding: 9px 8px; font-size: 13px; gap: 7px; } .rfp-panel { padding: 20px; } .rfp-actions .btn { flex: 1; justify-content: center; } .rfp-hint { width: 100%; } }
+
+/* ---------- Logo (stacked mark) and client logos ---------- */
+.nav__logo { padding: 6px 18px; }
+.nav__logo img { height: 46px; width: auto; max-width: none; }
+.footer__logo { width: 150px; height: auto; margin-bottom: 18px; opacity: .95; }
+.client-logo { display: grid; place-items: center; min-height: 110px; padding: 18px 28px; background: var(--white); border-radius: var(--r-md); box-shadow: 0 1px 0 rgba(20,20,20,.04), 0 16px 30px -24px rgba(20,20,20,.3); }
+.client-logo img { max-height: 64px; width: auto; }
+@media (max-width: 420px) { .nav__logo { padding: 6px 12px; } .nav__logo img { height: 40px; } }
+@media (min-width: 700px) { .nav__logo { padding: 6px 20px; } .nav__logo img { height: 50px; } }
